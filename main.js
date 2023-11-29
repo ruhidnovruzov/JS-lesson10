@@ -1,58 +1,63 @@
-// TASK-1
-
-// function convertNumberToString(arr){
-//   var convertedArray= arr.map((element)=>{
-//     return  element.toString()
-//   } )
-
-//   return convertedArray
+// Task-1
+// var number=99
+// function swapNumber(){
+// var stringNumber=number.toString()
+// var swappedNumber= +stringNumber.split('').reverse().join('')
+// console.log(swappedNumber<=number)
 // }
 
-// var inputArray= [2, 'aasdcasfc', 54, 'eqwfwe', 8]
-// var result=convertNumberToString(inputArray)
+// swapNumber()
 
-// console.log(result)
+//Task-2
 
-// TASK-2
-
-// function findType(arr){
-//   var findedType= arr.map((element)=>{
-//     return  typeof(element)
-//   } )
-
-//   return findedType
-// }
-
-// var inputArray= [2, 'aasdcasfc', 54, 'eqwfwe', 8, null, undefined, [2, ['asfdsds']]]
-// var result=findType(inputArray)
-// console.log(inputArray)
-// console.log(result)
-
-// TASK-3
-
-// function calcSum(arr) {
-//   var sum = arr.reduce((acc, current) => acc + current, 0)
-//   return sum
-// }
-
-// var array = [1, 2, 3, 4, 5]
-// const result = calcSum(array)
-
-// console.log(result)
-
-// TASK-4
-
-// function filterFourLetterWords(arr) {
-
-//   var fourLetterWords = arr.filter(function(word) {
-//     return word.length === 4
-//   })
-//     return fourLetterWords
+// function findHighest(number){
+//     var stringNumber=number.toString()
+//     var arrayNumber=stringNumber.split('')
+//     var highestNumber=Math.max(... arrayNumber)
+    
+//     console.log(highestNumber)
 // }
 
 
-// var wordsArray = ["Ryan", "Kieran", "Jason", "Matt"]
-// var resultArray = filterFourLetterWords(wordsArray)
+// findHighest(379)
 
-// console.log(resultArray)
+//Task-3
 
+// function removeNull(array){
+//     var remove= array.filter(function(element){
+//         return element !==null
+//      })
+ 
+//      console.log(remove)
+// }
+
+// removeNull(["a", null, 5, "b", null, 2, "c"])
+
+//Task-4
+
+// document.querySelector("#grey").addEventListener("click", function() {
+//     document.body.style.backgroundColor = "grey";
+// })
+// document.querySelector("#red").addEventListener("click", function() {
+//     document.body.style.backgroundColor = "red";
+// })
+// document.querySelector("#blue").addEventListener("click", function() {
+//     document.body.style.backgroundColor = "blue";
+// })
+// document.querySelector("#yellow").addEventListener("click", function() {
+//     document.body.style.backgroundColor = "yellow";
+// })
+
+//Task-5
+
+// var name= prompt("Adınızı daxil edin:")
+// var surname= prompt("Soyadınızı daxil edin:")
+// var username= prompt("İstifadəçi adınızı daxil edin:")
+
+// document.querySelector("#blue").style.color="blue"
+// document.querySelector("#red").style.color="red"
+// document.querySelector("#green").style.color="green"
+
+// document.querySelector("#name").innerHTML=name
+// document.querySelector("#surname").innerHTML=surname
+// document.querySelector("#username").innerHTML=username
